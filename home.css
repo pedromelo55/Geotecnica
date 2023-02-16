@@ -1,5 +1,5 @@
 body {
-    background-image: url(./imagens/mapa-gyn.png);
+    background-image: url(/imagens/mapa-gyn.png);
 }
 
 * {
@@ -41,14 +41,14 @@ a {
 
 .button-home {
     font-weight: bold;
-    color: #DCDCDC;
+    color: #5EBB62;
     background-color: #323232;
     border: 0;
 }
 
 .button-equipe {
     font-weight: bold;
-    color: #5EBB62;
+    color: #DCDCDC;
     background-color: #323232;
     border: 0;
 }
@@ -63,40 +63,39 @@ a {
     font-weight: bold;
 }
 
-/*Corpo*/
-/*
+/*Main*/
+
 main {
-    background-image: url("./imagens/mapa-gyn.png");
-    background-repeat: no-repeat;
-}
-*/
+    background-image: url(./imagens/mapa-gyn.png);
+}   
 
-/*SEM USAR EXPORTAÇÃO FIGMA*/
-/*
-.caixa-branca h1{
+.banner {
+    font-family: 'Raleway', sans-serif;
+    background-color: rgba(217, 217, 217, .85);
     text-align: center;
+    padding: 36px 370px 47px 370px;
+    margin: 15% 0 15% 0;
 }
 
-.caixa-equipe {
-    width: 75%;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-}
-*/
-
-/*exportando do figma*/
-
-
-
-.component {
-    text-align: center;
-    margin-top: 5%;
-    margin-bottom: 7%;
+.banner h1 {
+    color: #3F3939;
+    font-size: 64px;
+    margin-bottom: 6px;
 }
 
-.component img {
-    width: 80%;
+.banner h2 {
+    color: #3F3939;
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+
+.banner button {
+    color: white;
+    background-color: #164C34;
+    border: 0;
+    border-radius: 8px;
+    padding: 7px 40px;
+    font-weight: bold;
 }
 
 /*Footer*/
