@@ -1,0 +1,68 @@
+header {
+    background-color: #323232;
+    align-items: center;
+    position: relative;
+    padding: 20px 0;
+}
+
+.caixa {
+    display: flex;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.caixa p {
+    color: #B8B8B8;
+    font-weight: 600;
+}
+
+.imagem-logo {
+    margin: 5px 22px;
+    width: 50px;
+    height: 50px;
+}
+
+.botoes {
+    position: absolute;
+    right: 60px;
+}
+
+.button-home {
+    font-weight: bold;
+    color: #DCDCDC;
+    background-color: #323232;
+    border: 0;
+}
+
+.button-equipe {
+    font-weight: bold;
+    color: #5EBB62;
+    background-color: #323232;
+    border: 0;
+}
+
+.button-entrar {
+    background-color: #188454;
+    border: 0;
+    border-radius: 10px;
+    height: 35px;
+    width: 100px;
+    color: white;
+    font-weight: bold;
+}
+
+/*Corpo*/
+/*
+main {
+    background-image: url("./imagens/mapa-gyn.png");
+    background-repeat: no-repeat;
+}
+*/
+
+.caixa-branca {
+    background-color: rgb(132, 132, 132);
+    height: 30%;
+    width: 60%;
+    margin: 107px 0;
+    text-align: center;
+}
