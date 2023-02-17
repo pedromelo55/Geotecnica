@@ -1,5 +1,7 @@
 body {
-    background-image: url(/imagens/mapa-gyn.png);
+    background-image: url(./imagens/mapa-gyn.png);
+    background-repeat: no-repeat;
+    background-size:cover;
 }
 
 * {
@@ -29,28 +31,26 @@ header {
     width: 50px;
     height: 50px;
 }
-
-a {
-    text-decoration: none;
-}
-
+/*
 .botoes {
     position: absolute;
-    right: 60px;
+    right: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 13%;
 }
 
-.button-home {
-    font-weight: bold;
+.button-home a {
+    text-decoration: none;
     color: #5EBB62;
-    background-color: #323232;
-    border: 0;
+    font-weight: bold;
 }
-
-.button-equipe {
+.button-equipe a {
+    text-decoration: none;
     font-weight: bold;
     color: #DCDCDC;
-    background-color: #323232;
-    border: 0;
 }
 
 .button-entrar {
@@ -61,6 +61,45 @@ a {
     width: 100px;
     color: white;
     font-weight: bold;
+}
+*/
+
+nav {
+    position: absolute;
+    right: 30px;
+}
+
+nav li {
+    display: inline;
+    margin-left: 15px;
+}
+
+nav li a {
+    text-decoration: none;
+}
+
+.nav-home a {
+    color: #5EBB62;
+    font-weight: bold;
+}
+
+.nav-equipe a {
+    color: #DCDCDC;
+}
+
+.nav-equipe a:hover {
+    color: #5EBB62;
+    transition: 250ms;
+}
+
+nav li button {
+    background-color: #188454;
+    color: white;
+    font-weight: bold;
+    border: 0;
+    border-radius: 10px;
+    width: 100px;
+    height: 35px;
 }
 
 /*Main*/
