@@ -92,6 +92,15 @@ nav li a {
     transition: 250ms;
 }
 
+.nav-visualize a {
+    color: #DCDCDC;
+}
+
+.nav-visualize a:hover {
+    color: #5EBB62;
+    transition: 250ms;
+}
+
 nav li button {
     background-color: #188454;
     color: white;

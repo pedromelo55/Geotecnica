@@ -81,15 +81,25 @@ nav li a {
     color: #DCDCDC;
 }
 
+.nav-home a:hover {
+    color: #5EBB62;
+    transition: 250ms;
+}
+
 .nav-equipe a {
     color: #5EBB62;
     font-weight: bold;
 }
 
-.nav-home a:hover {
+.nav-visualize a {
+    color: #DCDCDC;
+}
+
+.nav-visualize a:hover {
     color: #5EBB62;
     transition: 250ms;
 }
+
 
 nav li button {
     background-color: #188454;
