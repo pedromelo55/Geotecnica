@@ -1,7 +1,5 @@
 body {
     background-image: url(./imagens/mapa-gyn.png);
-    background-repeat: no-repeat;
-    background-size:cover;
 }
 
 * {
@@ -32,25 +30,27 @@ header {
     height: 50px;
 }
 /*
-.botoes {
-    position: absolute;
-    right: 0;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    width: 13%;
+a {
+    text-decoration: none;
 }
 
-.button-home a {
-    text-decoration: none;
-    color: #5EBB62;
-    font-weight: bold;
+.botoes {
+    position: absolute;
+    right: 60px;
 }
-.button-equipe a {
-    text-decoration: none;
+
+.button-home {
     font-weight: bold;
     color: #DCDCDC;
+    background-color: #323232;
+    border: 0;
+}
+
+.button-equipe {
+    font-weight: bold;
+    color: #5EBB62;
+    background-color: #323232;
+    border: 0;
 }
 
 .button-entrar {
@@ -63,7 +63,6 @@ header {
     font-weight: bold;
 }
 */
-
 nav {
     position: absolute;
     right: 30px;
@@ -79,17 +78,17 @@ nav li a {
 }
 
 .nav-home a {
-    color: #5EBB62;
-    font-weight: bold;
-}
-
-.nav-equipe a {
     color: #DCDCDC;
 }
 
-.nav-equipe a:hover {
+.nav-home a:hover {
     color: #5EBB62;
     transition: 250ms;
+}
+
+.nav-equipe a {
+    color: #5EBB62;
+    font-weight: bold;
 }
 
 .nav-visualize a {
@@ -100,6 +99,7 @@ nav li a {
     color: #5EBB62;
     transition: 250ms;
 }
+
 
 nav li button {
     background-color: #188454;
@@ -115,39 +115,15 @@ nav li button a {
     color: white;
 }
 
-/*Main*/
+/*formulario*/
 
-main {
-    background-image: url(./imagens/mapa-gyn.png);
-}   
-
-.banner {
-    font-family: 'Raleway', sans-serif;
-    background-color: rgba(217, 217, 217, .85);
-    text-align: center;
-    padding: 36px 370px 47px 370px;
-    margin: 15% 0 15% 0;
-}
-
-.banner h1 {
-    color: #3F3939;
-    font-size: 64px;
-    margin-bottom: 6px;
-}
-
-.banner h2 {
-    color: #3F3939;
-    font-size: 20px;
-    margin-bottom: 12px;
-}
-
-.banner button {
-    color: white;
-    background-color: #164C34;
+.formulario {
+    background-color: #D9D9D9;
     border: 0;
-    border-radius: 8px;
-    padding: 7px 40px;
-    font-weight: bold;
+    border-radius: 10px;
+    text-align: center;
+    width: 75%;
+    margin: 5% 15%;
 }
 
 /*Footer*/
@@ -155,6 +131,7 @@ main {
 footer {
     background-color: #F2F2F2;
     text-align: center;
+    padding: 20px 0;
 }
 
 footer img {
@@ -169,12 +146,6 @@ footer h1 {
 }
 
 footer h2 {
-    font-size: 10px;
-    font-family: 'Roboto', sans-serif;
-    margin-bottom: 4px;
-}
-
-footer p {
     font-size: 10px;
     font-family: 'Roboto', sans-serif;
 }

@@ -111,6 +111,10 @@ nav li button {
     height: 35px;
 }
 
+nav li button a{
+    color: white;
+}
+
 /*Corpo*/
 /*
 main {
