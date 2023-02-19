@@ -122,8 +122,31 @@ nav li button a {
     border: 0;
     border-radius: 10px;
     text-align: center;
+    margin: 5% auto;
     width: 75%;
-    margin: 5% 15%;
+    padding: 2% 0;
+}
+
+.formulario h1 {
+    font-size: 36px;
+    color: #323232;
+    margin-bottom: 2%;
+}
+
+.flexbox-formulario {
+    border: solid red 1px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    margin: 5% auto;
+}
+
+label {
+    display: block;
+}
+
+.flexbox-formulario input {
+    margin: 0 4% 4% 0;
 }
 
 /*Footer*/
