@@ -87,8 +87,12 @@ nav li a {
 }
 
 .nav-equipe a {
+    color: #DCDCDC;
+}
+
+.nav-equipe a:hover {
     color: #5EBB62;
-    font-weight: bold;
+    transition: 250ms;
 }
 
 .nav-visualize a {
@@ -133,12 +137,22 @@ nav li button a {
     margin-bottom: 2%;
 }
 
-.flexbox-formulario {
+.flexbox-formulario-left {
     border: solid red 1px;
     display: flex;
     flex-wrap: wrap;
-    width: 60%;
-    margin: 5% auto;
+    width: 30%;
+    margin: 5% auto 0 auto;
+    display: block;
+}
+
+.flexbox-formulario-right {
+    border: solid red 1px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 30%;
+    margin: 0 auto;
+    display: block;
 }
 
 label {
